@@ -1,0 +1,54 @@
+
+, , 2018-03-12 15:46:13, ForgotPasswordScreen, Requested Token for login, UPDATE users SET token='36ca9e9594e229a0f8d5a46c4ee6d1ab', tokenTime = '2018-03-12 15:46:13', tokenLock = '1' WHERE email='test@test.com'
+
+, log, 2018-03-12 15:54:31, Register, User registered, INSERT INTO users (username, password, email, dob) VALUES (?, ?, ?, ?)
+
+, logn, 2018-03-12 16:10:44, Register, User registered, UPDATE users SET username='$2y$10$7H6zTu6WtHC5Di9Yiummd.OhoUcZBpHrEMEWTX.JOalsrzeIyhW4G', password = '$2y$10$r4G6yr18/neYfxOMZaXiVe3kLqxB5hak2/ym9QlOn7WErDDRGRJUy', email = '$2y$10$37ywmLPtPUN7muJ5B2rKoeD7qRlpFCqVDPuYhec3w3e0BzHAOrypi' WHERE email='$2y$10$37ywmLPtPUN7muJ5B2rKoeD7qRlpFCqVDPuYhec3w3e0BzHAOrypi'
+
+92514eabef9b491573b2faa290d5bcba, logn, 2018-03-12 16:24:00, Login, Login Succesful, UPDATE activesession SET Counter='0', Tstamp = '2018-03-12 16:24:00', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, $2y$10$7H6zTu6WtHC5Di9Yiummd.OhoUcZBpHrEMEWTX.JOalsrzeIyhW4G, 2018-03-12 16:25:20, Login, Login Succesful, UPDATE activesession SET Counter='0', Tstamp = '2018-03-12 16:25:20', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, $2y$10$7H6zTu6WtHC5Di9Yiummd.OhoUcZBpHrEMEWTX.JOalsrzeIyhW4G, 2018-03-12 16:30:51, Login, Login Succesful, UPDATE activesession SET Counter='0', Tstamp = '$2y$10$pfCI6Bkr2ZRHBLlv/0JgJuPMUdkQA002HmJ9qGHooGEO09EC4eNWy', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, sdfgfd, 2018-03-12 16:34:37, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 16:34:37', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, sdfgfd, 2018-03-12 16:34:37, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 16:34:37', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, sdfgfd, 2018-03-12 16:34:37, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 16:34:37', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, sdfgfd, 2018-03-12 16:34:37, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 16:34:37', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, sdfgfd, 2018-03-12 16:34:37, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 16:34:37', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+, test, 2018-03-12 19:07:59, Register, User registered, UPDATE users SET username='$2y$10$P0pB6m.Z8XNyN1ufErRiAOUPYC41azoAR/QGhi.XJLuwd01cKTY8G', password = '$2y$10$o79yB43rzsOWNgp.QxwR9.oz7eZJo1dUvJM/LAULCOvUnphZ1Embi', email = '$2y$10$Cw2vXg6K7hHsH1n539dsFubBLP.tJun0jV0KTDrLrbXCggrPKt/Zy' WHERE email='$2y$10$Cw2vXg6K7hHsH1n539dsFubBLP.tJun0jV0KTDrLrbXCggrPKt/Zy'
+
+, , 2018-03-12 19:08:07, Forgot Password, Requested Token for login, UPDATE users SET token='b198e6a69987c957e886889eebb0d0ed', tokenTime = '2018-03-12 19:08:07', tokenLock = '1' WHERE email='test@test.com'
+
+, , 2018-03-12 19:09:11, Forgot Password, Requested Token for login, UPDATE users SET token='66035dc6376fbb4dffe7f12559baf93d', tokenTime = '2018-03-12 19:09:11', tokenLock = '1' WHERE email='test@test.com'
+
+, , 2018-03-12 19:11:23, Token, Password successfully changed, UPDATE users SET password='$2y$10$4nemYuuZwjya0Cv2JrDnouDIoKtdDdnDxR3TPTnV6KMWPYCWP9Qk6', tokenLock = '0', WHERE email='$2y$10$Cw2vXg6K7hHsH1n539dsFubBLP.tJun0jV0KTDrLrbXCggrPKt/Zy'
+
+92514eabef9b491573b2faa290d5bcba, test, 2018-03-12 19:11:44, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 19:11:44', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, test, 2018-03-12 19:12:14, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 19:12:14', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, test, 2018-03-12 19:12:25, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 19:12:25', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, test, 2018-03-12 19:12:28, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 19:12:28', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+92514eabef9b491573b2faa290d5bcba, test, 2018-03-12 19:12:30, Login, Login Failed, Password incorrect, UPDATE activesession SET Counter='+1', Tstamp = '2018-03-12 19:12:30', WHERE SessionID='92514eabef9b491573b2faa290d5bcba'
+
+, , 2018-03-12 19:16:08, Forgot Password, Requested Token for login, UPDATE users SET token='0ea714e5b0cbfb4c75afd353ae9e253c', tokenTime = '2018-03-12 19:16:08', tokenLock = '1' WHERE email='test@test.com'
+
+, , 2018-03-12 19:16:30, Token, Password successfully changed, UPDATE users SET password='$2y$10$eDkuWsRrH9m/LgeTGlk1C.J18VxXt0fiAKyNLMLqBcDfK5fJBXoe2', tokenLock = '0', WHERE email='$2y$10$Cw2vXg6K7hHsH1n539dsFubBLP.tJun0jV0KTDrLrbXCggrPKt/Zy'
+
+, , 2018-03-12 19:16:52, Forgot Password, Requested Token for login, UPDATE users SET token='09ef4a8494eac7744297444cb2f8ce3d', tokenTime = '2018-03-12 19:16:52', tokenLock = '1' WHERE email='test@test.com'
+
+, , 2018-03-12 19:17:15, Token, Password successfully changed, UPDATE users SET password='$2y$10$.FDjyF60dsF4Zcq1jwwWd.fLiwDkGpk1m9wIHa4SZNwzmEE8bjecC', tokenLock = '0', WHERE email='$2y$10$Cw2vXg6K7hHsH1n539dsFubBLP.tJun0jV0KTDrLrbXCggrPKt/Zy'
+
+, , 2018-03-12 19:18:31, Forgot Password, Requested Token for login, UPDATE users SET token='cace0978c0e7e756d8df0db2879e543c', tokenTime = '2018-03-12 19:18:31', tokenLock = '1' WHERE email='test@test.com'
+
+, , 2018-03-12 19:18:55, Token, Passwords did not match., 
+
+, test, 2018-03-12 19:22:43, Register, User registered, UPDATE users SET username='$2y$10$VVvqhAxYW/qqhNpcbnAmeuUOt2Y0njkDNzAMQAIaHyg.ius7uLSv.', password = '$2y$10$ZTTb0nRIBcBXd7GJ4DVHX.g442PSAZ1ELN9lTEgORM9iri9zZoVVa', email = '$2y$10$i3SXSDsCizlgCWSeqj9Tf.0jX.uNx9IGOu/5D6L83Q/POEHFTM0K6' WHERE email='$2y$10$i3SXSDsCizlgCWSeqj9Tf.0jX.uNx9IGOu/5D6L83Q/POEHFTM0K6'
